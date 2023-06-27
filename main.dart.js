@@ -47455,7 +47455,7 @@ if(s)p.push(new A.hf("Edit","E",new A.a8U(),B.Hn,r))
 if(n==="Driver Rejected")p.push(new A.hf("Recover","Ctrl+R",new A.a8V(q,o),B.Hg,r))
 q=a.b
 o=J.fO(q)
-return A.te(new A.NA(A.b5(B.aZ,q!=="Released"?A.bI(o.k(q),r,r,r,B.Ai,r,r):A.cY(A.b([A.bI(o.k(q),r,r,r,B.Ai,r,r),new A.bt(B.G2,A.ca(A.aMp(r,B.pm,r,r,r,4,r,r),15,15),r)],t.p),B.C,B.E,B.B),B.k,r,r,r,r,r,r,r,B.bc,r,r,r),new A.BQ(p,r),r),r,r,r,r,B.J)},
+return A.te(new A.NA(A.b5(B.aZ,q!=="Released"?A.bI(o.k(q),r,r,r,B.Ai,r,r):A.cY(A.b([A.bI(o.k(q),r,r,r,B.Ai,r,r),new A.bt(B.G2,A.ca(A.aMp(r,B.pm,r,r,r,2,r,r),10,10),r)],t.p),B.C,B.E,B.B),B.k,r,r,r,r,r,r,r,B.bc,r,r,r),new A.BQ(p,r),r),r,r,r,r,B.J)},
 $S:373}
 A.a8Q.prototype={
 $0(){var s=this.a,r=s.k1
