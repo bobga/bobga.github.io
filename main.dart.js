@@ -8940,7 +8940,7 @@ var $async$alJ=A.D(function(d,e){if(d===1){p=e
 s=q}while(true)switch(s){case 0:q=3
 o=A.dI("https://fcm.googleapis.com/fcm/send")
 n=t.N
-m=A.ab(["Content-Type","application/json","Authorization","key=AAAAVGE-L2E:APA91bGjbWq2oEDvxT_qv-sh9jN_ikM1W9N4OmRSsQDtxVcZcSn7htHM4sOo_-51xW6W507uN_4PZ7nz0Qahy0Wn9MGqf7HmsyjO-YWeY-riUqXEHbnLggLZVOvl_fL-TPwHZv7CEe1G"],n,n)
+m=A.ab(["Content-Type","application/json","Authorization","key="],n,n)
 l=t.z
 s=6
 return A.I(A.aZ9(o,B.z.a17(A.ab(["notification",A.ab(["body",b,"title","BA Job Request "+a,"sound","default"],n,l),"priority","high","data",A.ab(["click_action","FLUTTER_NOTIFICATION_CLICK","id","1","status","done"],n,l),"to",c],n,l),null),m),$async$alJ)
@@ -51292,7 +51292,7 @@ s.f=r
 $.a9k().tA(r,1e4,0)
 s.d.sbV(0,s.f)
 $.oN().sl(0,"")
-s.r=A.aXY("AC9feeb06362a10acc68f0c2b65169e03b","e7bdb497d8a060b180aae66788a2e36b","+447360274344")
+s.r=A.aXY("","","+447360274344")
 s.aE()},
 fX(a,b){return this.a7l(a,b)},
 a7l(a,b){var s=0,r=A.C(t.z),q=this,p,o
@@ -51933,7 +51933,7 @@ r=p.r
 if(o)p=A.bD(A.b([A.iz(!0,B.an,!0,q,A.ji(),r,q,q,q,2,B.rU,!0,q,!0,q,!1,q,q,q,q,q,q,q,1,q,q,!1,"\u2022",new A.aKz(p,b),q,q,q,q,!1,q,q,B.b_,q,q,q,q,q,q,q,B.a5,q,B.be,q,q,q),A.ck(A.TM(new A.aKA(p,b),J.c3(p.p2),q,q,q,!1),1)],s),B.p,B.o,B.aD)
 else{o=A.b(["uk"],t.s)
 A.cI(q)
-r=new A.Eg(B.rU,new A.aKB(p),new A.aKC(p,b),!0,"AIzaSyAni3-g-f4S2CD8gfRPp5G_jalj_rtTkEg",800,o,r,q)
+r=new A.Eg(B.rU,new A.aKB(p),new A.aKC(p,b),!0,"",800,o,r,q)
 p=r}return A.aW4(A.b([A.l1(A.aB("OK",q,q,q,q,q,q,q,q),new A.aKD(a),q)],s),new A.aH(m*30,q,p,q),n)},
 $S:249}
 A.aKx.prototype={
@@ -52032,7 +52032,7 @@ return r}}
 A.K4.prototype={
 ac(){this.R5()
 $.aVO().xg()
-this.db=A.aXY("AC9feeb06362a10acc68f0c2b65169e03b","e7bdb497d8a060b180aae66788a2e36b","+447360274344")},
+this.db=A.aXY("","","+447360274344")},
 m(){this.R4()},
 fC(a){return this.aFX(a)},
 aFX(a){var s=0,r=A.C(t.z),q=this,p,o,n,m
@@ -52314,7 +52314,7 @@ $S:101}
 A.xf.prototype={
 a0(){return new A.KR(B.k)}}
 A.KR.prototype={
-ac(){this.w=A.aXY("AC9feeb06362a10acc68f0c2b65169e03b","e7bdb497d8a060b180aae66788a2e36b","+447360274344")
+ac(){this.w=A.aXY("","","+447360274344")
 this.aE()},
 m(){this.aD()},
 ke(a,b){return this.a6u(a,b)},
@@ -115406,7 +115406,7 @@ B.rp=new A.hG(9,"notEqual")
 B.rq=new A.wX(0,"checkboxFilter")
 B.ku=new A.wX(1,"advancedFilter")
 B.e6=new A.wX(2,"none")
-B.IS=new A.x0("AIzaSyDUeE8JlNG0hEOV12aPMmxix_A6xwuSgTA","1:362408718177:web:f2a5990307cc598cf69f20","362408718177","ba3apps","ba3apps.firebaseapp.com",null,"ba3apps.appspot.com","G-EYJ9C9K7R7",null,null,null,null,null,null)
+B.IS=new A.x0("","","","","",null,"","",null,null,null,null,null,null)
 B.t=new A.L(0,0)
 B.IT=new A.SB(B.t,B.t)
 B.hF=new A.E2(0,"tight")
