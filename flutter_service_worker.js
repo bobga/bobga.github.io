@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ad3edd3587e2475ded4cee856dfc507a",
+  "assets/AssetManifest.json": "fd6736619ee72998667a3129e703e0a0",
 "assets/FontManifest.json": "ac3f70900a17dc2eb8830a3e27c653c3",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "0ea78c839f9800c19361bb871c07cf76",
+"assets/NOTICES": "5f5208b0dfb21ce7a54e1850c0d64926",
 "assets/packages/country_code_picker/flags/ad.png": "796914c894c19b68adf1a85057378dbc",
 "assets/packages/country_code_picker/flags/ae.png": "045eddd7da0ef9fb3a7593d7d2262659",
 "assets/packages/country_code_picker/flags/af.png": "44bc280cbce3feb6ad13094636033999",
@@ -336,6 +336,7 @@ const RESOURCES = {
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "56e2c9cedd97f10e7e5f1cebd85d53e3",
 "assets/packages/flutter_map/lib/assets/flutter_map_logo.png": "208d63cc917af9713fc9572bd5c09362",
+"assets/packages/google_places_flutter/images/location.json": "afa33acf2c340246c901718f4efdfccf",
 "assets/packages/syncfusion_flutter_datagrid/assets/font/FilterIcon.ttf": "c17d858d09fb1c596ef0adbf08872086",
 "assets/packages/syncfusion_flutter_datagrid/assets/font/UnsortIcon.ttf": "6d8ab59254a120b76bf53f167e809470",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
@@ -348,9 +349,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "f76de9edc27357e6699d8ad0ba784dba",
-"/": "f76de9edc27357e6699d8ad0ba784dba",
-"main.dart.js": "c9851e5c911f4048aa70306a442e7cba",
+"index.html": "cf9dc1db32417f6b2fd24ba7ed5a8e5e",
+"/": "cf9dc1db32417f6b2fd24ba7ed5a8e5e",
+"main.dart.js": "dd0cbf4495a0c0ab0f38f82d7da2bcf9",
 "manifest.json": "f5a7afa0121e0598d264788dd5b892a0",
 "styles.css": "ad50e106bdbb07a0431e5f7d445ae866",
 "version.json": "3bb9d7d947c71f2e12880d815e0b7a4c"
