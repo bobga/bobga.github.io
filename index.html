@@ -3,21 +3,18 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Abdul Jalil Sireis Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Jalil Sireis - Senior Flutter Developer Portfolio</title>
+  <meta name="description" content="8+ years experience Flutter developer specializing in cross-platform mobile apps, Firebase, and performance optimization">
+  <meta name="keywords" content="Flutter, Dart, Firebase, Mobile Development, Kotlin, Swift, Clean Architecture">
+  
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"></noscript>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,47 +26,45 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Theme Color for Mobile Browsers -->
+  <meta name="theme-color" content="#0d6efd">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://yourdomain.com">
 </head>
 
 <body class="index-page">
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
 
   <header id="header" class="header d-flex flex-column justify-content-center">
+    <button class="header-toggle d-xl-none bi bi-list" aria-label="Toggle navigation"></button>
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <nav id="navmenu" class="navmenu">
+    <nav id="navmenu" class="navmenu" aria-label="Main navigation">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#hero" class="active" aria-current="page"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#skills"><i class="bi bi-code-slash navicon"></i><span>Skills</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
       </ul>
     </nav>
-
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="">
+      <img src="assets/img/hero-bg.jpg" alt="" loading="lazy" width="1920" height="1080">
 
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
           <div class="col-lg-9">
             <h2>Abdul Jalil Sireis</h2>
             <p>I'm <span class="typed"
-                data-typed-items="a Senior Flutter Developer, a Senior Software Engineer,"></span><span
+                data-typed-items="a Senior Flutter Developer"></span><span
                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <!-- <div class="social-links">
               <a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -85,217 +80,290 @@
 
     <!-- About Section -->
     <section id="about" class="about section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Innovative Senior Flutter Developer with 8+ years of expertise in building high-performance, cross-platform mobile applications. Specialized in Flutter, Dart, Firebase, and modern architectures (Clean Architecture, BLoC, Riverpod). Proven track record of reducing development costs by 60%, improving app performance (99% crash-free rate), and mentoring teams to enhance productivity. Passionate about optimizing user experience, scalable app design, and staying ahead of Flutter’s evolving ecosystem. As an innovative Senior Flutter Developer, I bring over 8 years of expertise in crafting high-performance, crossplatform mobile applications. My specialty lies in utilizing Flutter, Dart, Firebase, and embracing modern architectural patterns like Clean Architecture, BLoC, and Riverpod. I have a proven ability to slash development costs by 60%, achieve a 99% crash-free rate for apps, and uplift team productivity through effective mentorship. My passion revolves around enhancing user experience, designing scalable applications, and continuously keeping pace with the everevolving ecosystem of Flutter.</p>
-      </div><!-- End Section Title -->
+        <h2>About Me</h2>
+        <p>8+ years building high-performance Flutter applications with expertise in Dart, Firebase, and modern architectures</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 justify-content-center">
+        <div class="row gy-4 justify-content-center align-items-center">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <div class="profile-image-wrapper">
+              <img src="assets/img/profile-img.jpg" class="img-fluid rounded-4 shadow" alt="Abdul Jalil Sireis" width="400" height="400" loading="lazy">
+              <div class="badge-experience">
+                <span>8+ Years Experience</span>
+              </div>
+            </div>
           </div>
           <div class="col-lg-8 content">
-            <h2>Flutter Developer.</h2>
+            <h2>Flutter Developer & Mobile Architect</h2>
             <p class="fst-italic py-3">
-              Mobile App Specialist. Focused on clean code, performance optimization, and AI integration.
+              Specializing in clean code, performance optimization, and AI integration for mobile applications
             </p>
             <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15 Jan 1991</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Prague, Czech Republic</span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Telegram:</strong>
-                    <span>https://t.me/fluttercto</span></li>
+              <div class="col-md-6">
+                <ul class="info-list">
+                  <li><i class="bi bi-geo-alt"></i> <strong>Location:</strong> <span>Prague, Czech Republic</span></li>
+                  <li><i class="bi bi-telegram"></i> <strong>Telegram:</strong> <a href="https://t.me/fluttercto">@fluttercto</a></li>
+                  <li><i class="bi bi-calendar"></i> <strong>Availability:</strong> <span>Open to new projects</span></li>
                 </ul>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Science in Computer Science</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sireisabduljalil@gmail.com</span>
-                  </li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
+              <div class="col-md-6">
+                <ul class="info-list">
+                  <li><i class="bi bi-award"></i> <strong>Experience:</strong> <span>8+ years</span></li>
+                  <li><i class="bi bi-envelope"></i> <strong>Email:</strong> <a href="mailto:ajalilsireis@gmail.com">ajalilsireis@gmail.com</a></li>
+                  <li><i class="bi bi-phone"></i> <strong>Call:</strong> <a href="tel:+420775508317">+420 775 508 317</a></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">
-              🚀 8+ Years Experience in Flutter Development | 🍏 10+ Years iOS Native | 🔥 Firebase & AWS Expert
-            </p>
+            <div class="expertise-tags">
+              <span class="badge bg-primary">Flutter Expert</span>
+              <span class="badge bg-primary">Firebase</span>
+              <span class="badge bg-primary">Clean Architecture</span>
+              <span class="badge bg-primary">Performance Tuning</span>
+            </div>
           </div>
         </div>
-
       </div>
-
-    </section><!-- /About Section -->
-
-
+    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>My technical expertise spans across mobile development, architecture design, and performance optimization.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>Flutter </span> <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Dart </span> <i class="val">97%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Firebase </span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->            
-            <!-- End Skills Item -->
-
-          </div>
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill"><span>Kotlin </span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Swift </span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-
-            <div class="progress">
-              <span class="skill"><span>CI/CD </span> <i class="val">88%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <!-- End Skills Item -->
-
-          </div>
-
-        </div>
-
+        <h2>Technical Skills</h2>
+        <p>My expertise spans across mobile development, architecture design, and performance optimization</p>
       </div>
 
-    </section><!-- /Skills Section -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content skills-animation">
+          <div class="col-lg-6">
+            <!-- Mobile Development -->
+            <div class="skills-category">
+              <h3><i class="bi bi-phone"></i> Mobile Development</h3>
+              <div class="progress">
+                <span class="skill">Flutter & Dart <span class="val">98%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Kotlin Multiplatform <span class="val">92%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 92%" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Jetpack Compose <span class="val">94%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">SwiftUI <span class="val">89%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend & Cloud -->
+            <div class="skills-category">
+              <h3><i class="bi bi-cloud"></i> Backend & Cloud</h3>
+              <div class="progress">
+                <span class="skill">Firebase <span class="val">95%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Supabase <span class="val">88%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">GraphQL <span class="val">90%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Node.js <span class="val">85%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6">
+            <!-- DevOps & Tools -->
+            <div class="skills-category">
+              <h3><i class="bi bi-gear"></i> DevOps & Tools</h3>
+              <div class="progress">
+                <span class="skill">CI/CD Pipelines <span class="val">96%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 96%" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Docker <span class="val">90%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">AWS Amplify <span class="val">88%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Fastlane <span class="val">93%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 93%" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testing & Architecture -->
+            <div class="skills-category">
+              <h3><i class="bi bi-clipboard-check"></i> Testing & Architecture</h3>
+              <div class="progress">
+                <span class="skill">Riverpod <span class="val">97%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 97%" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Unit/Widget Testing <span class="val">91%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Maestro <span class="val">86%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 86%" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+              <div class="progress">
+                <span class="skill">Clean Architecture <span class="val">94%</span></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>My professional journey as a mobile developer specializing in Flutter and cross-platform solutions.</p>
-      </div><!-- End Section Title -->
+        <h2>Professional Experience</h2>
+        <p>My journey as a mobile developer specializing in Flutter and cross-platform solutions</p>
+      </div>
 
       <div class="container">
-
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
+            <div class="resume-item">
               <h4>Abdul Jalil Sireis</h4>
               <p><em>Innovative Senior Flutter Developer with 8+ years of experience building high-performance mobile applications. Specialized in Flutter, Dart, Firebase, and modern architectures.</em></p>
               <ul>
                 <li>Prague, Czech Republic</li>
-                <li>+420 775 508 317</li>
-                <li>sireisabduljalil@gmail.com</li>
+                <li><a href="tel:+420775508317">+420 775 508 317</a></li>
+                <li><a href="mailto:ajalilsireis@gmail.com">ajalilsireis@gmail.com</a></li>
               </ul>
-            </div><!-- End Resume Item -->
+            </div>
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Bachelor of Science in Computer Science</h4>
-              <h5>2010 - 2014</h5>
+              <h5>2011 - 2015</h5>
               <p><em>Czech Technical University, Prague</em></p>
               <ul>
-                <li>Specialized in Software Engineering and Mobile Development. Thesis focused on cross-platform mobile performance optimization.</li>                
+                <li>Relevant Coursework: Mobile App Development, Distributed Systems, UX Design</li>
+                <li>Thesis: "Optimizing Mobile UI Rendering Performance"</li>
               </ul>
-            </div><!-- End Resume Item -->            
+            </div>
+            
+            <h3 class="resume-title">Certifications</h3>
+            <div class="resume-item">
+              <h4>Flutter & Dart - The Complete Guide</h4>
+              <h5>Udemy | 2023</h5>
+              <p>Advanced state management, Firebase integration, and performance optimization</p>
+            </div>
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
+            
             <div class="resume-item">
-              <h4>Senior Flutter Developer</h4>
-              <h5>2021 - Present</h5>
-              <p><em>Self-Employed | Upwork, Freelancer.com</em></p>
+              <h4>ArtemisOne | Senior Flutter Developer</h4>
+              <h5>Sep 2024 - Present | Remote</h5>
               <ul>
-                <li>Led end-to-end development of 10+ Flutter apps for e-commerce, healthcare, and fintech sectors with 4.8+ avg. ratings</li>
-                <li>Reduced time-to-market by 40% by replacing native codebases with Flutter</li>
-                <li>Achieved 99% crash-free rates through performance optimization techniques</li>
-                <li>Mentored 3 junior developers, improving team productivity by 25%</li>
+                <li>Developed cross-platform remote access solution for Android, Windows, and Web</li>
+                <li>Reduced latency by 25% through Dart isolate refactoring</li>
+                <li>Implemented Clean Architecture for modular maintainability</li>
+                <li>Ensured GDPR and enterprise security compliance</li>
               </ul>
-            </div><!-- End Resume Item -->
-
+            </div>
+            
             <div class="resume-item">
-              <h4>Mid-Level Flutter Developer</h4>
-              <h5>2019 - 2021</h5>
-              <p><em>Hexagon, remote</em></p>
+              <h4>Staffmonitor Sp. z o.o. | Senior Flutter Developer</h4>
+              <h5>Jan 2023 – Aug 2024 | Warsaw, Poland</h5>
               <ul>
-                <li>Migrated 3 legacy Android/iOS apps to Flutter, reducing maintenance costs by 60%</li>
-                <li>Optimized state management with Riverpod, reducing boilerplate code by 50%</li>
-                <li>Implemented pixel-perfect UIs that increased user retention by 15%</li>
+                <li>Led full-cycle development of StaffMonitor.app (iOS/Android)</li>
+                <li>Achieved 4.7/5 App Store ratings and 99.5% crash-free sessions</li>
+                <li>Built real-time activity tracking with geofencing</li>
+                <li>Mentored 3 junior developers in BLoC patterns</li>
               </ul>
-            </div><!-- End Resume Item -->
-
+            </div>
+            
             <div class="resume-item">
-              <h4>Mobile Developer (Native Android/iOS) </h4>
-              <h5>2015 - 2019</h5>
-              <p><em>Kanhua Workforce</em></p>
+              <h4>Hexagon Manufacturing Intelligence | Flutter Developer</h4>
+              <h5>Jan 2019 – Dec 2022 | Prague, Czechia</h5>
               <ul>
-                <li>Built 4+ apps in Kotlin (Android) and Swift (iOS), including a workforce scheduling tool that reduced employee shift conflicts by 25%.
-                </li>
-                <li>Cut crash rates by 20% via Crashlytics integration and background thread optimization.</li>
-                <li>Developed over four applications using Kotlin for Android and Swift for iOS. Notably created a workforce scheduling app that dropped employee shift conflicts by 25%.</li>
-                <li>Achieved a 20% reduction in app crash rates through integrations with Crashlytics and optimizing background thread operations.</li>
-                <li>Agile & DevOps Initiatives: Streamlined build processes using Jenkins and Fastlane, cutting down release cycles from two weeks to just three days. Played a pivotal role in sprint planning as a Scrum team leader.
-                </li>
+                <li>Migrated 3 native apps (500K+ users) to Flutter</li>
+                <li>Reduced monthly maintenance costs by 60%</li>
+                <li>Modernized state management with Riverpod + Freezed</li>
+                <li>Improved render speed by 35%</li>
               </ul>
-            </div><!-- End Resume Item -->
+            </div>
+            
+            <div class="resume-item">
+              <h4>Hexagon Manufacturing Intelligence | Mobile Developer</h4>
+              <h5>Oct 2015 – Dec 2018 | Prague, Czechia</h5>
+              <ul>
+                <li>Built workforce scheduling app with Kotlin/Swift</li>
+                <li>Reduced employee shift conflicts by 25%</li>
+                <li>Automated release cycles with Jenkins/Fastlane</li>
+              </ul>
+            </div>
           </div>
         </div>
-
       </div>
-
-    </section><!-- /Resume Section -->
+    </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Technical Portfolio</h2>
         <p>Some of my recent Flutter projects and applications</p>
@@ -643,7 +711,7 @@
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Flutter Development Services</h2>
-          <p>Enterprise-grade mobile solutions leveraging Flutter's full potential to deliver performant, scalable applications with native-like experiences across platforms.</p>
+          <p>Comprehensive solutions tailored to your mobile development needs</p>
         </div>
 
         <div class="row gy-4">
@@ -837,13 +905,10 @@
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Client Testimonials</h2>
-        <p>Trusted by startups and enterprises worldwide for delivering exceptional technical solutions on time and
-          beyond expectations</p>
-      </div><!-- End Section Title -->
+        <p>What my clients say about working with me</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -1023,16 +1088,20 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
+  <footer id="footer" class="footer">
     <div class="container">
       <h3 class="sitename">Abdul Jalil Sireis</h3>
       <p>Dedicated to creating impactful and user-friendly experiences with a focus on quality and integrity.</p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/bobga"><i class="bi bi-github"></i></a>
-        <a href="https://t.me/fluttercto"><i class="bi bi-telegram"></i></a>
-        <a href="https://wa.me/420775508317"><i class="bi bi-whatsapp"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://t.me/fluttercto"><i class="bi bi-telegram"></i></a>        
       </div>
+    </div>
+    <div class="copyright">
+      &copy; <span id="current-year"></span> <strong>Abdul Jalil Sireis</strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed with <i class="bi bi-heart-fill"></i> by <a href="#">Abdul Jalil Sireis</a>
     </div>
   </footer>
 
@@ -1045,7 +1114,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -1058,6 +1126,10 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+  </script>
 </body>
-
 </html>
